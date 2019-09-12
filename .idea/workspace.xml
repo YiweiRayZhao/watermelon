@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a728459d-af9d-4c03-ab3a-2d7f253fa4f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Document/CSS/Slide_Image.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Document/CSS/card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Document/CSS/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Document/CSS/navigate_bar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Document/CSS/tabcontent.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Document/Image/Green_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Document/Image/Green_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Document/Image/Green_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Document/Image/JiangAnhui.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Document/Image/LiYingnan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Document/Image/TangWeixin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Document/Image/Watermelon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Document/Image/ZhaoRay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Document/Image/img_avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Document/JS/Slide_Image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Document/JS/navigate_bar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/dog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Document/JS/Slide_Image.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,8 +18,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1635">
-              <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+            <state relative-caret-position="362">
+              <caret line="115" selection-start-line="115" selection-end-line="115" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,7 +86,7 @@
               <item name="watermelon" type="b2602c69:ProjectViewProjectNode" />
               <item name="watermelon" type="462c0819:PsiDirectoryNode" />
               <item name="Document" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -109,6 +96,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Document" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -141,16 +129,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568304198444</updated>
-      <workItem from="1568304199783" duration="877000" />
+      <workItem from="1568304199783" duration="1386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="877000" />
+    <option name="totallyTimeSpent" value="1386000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="43" width="1400" height="907" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
@@ -160,7 +147,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32883435" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -180,8 +167,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+        <state relative-caret-position="362">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
