@@ -1,66 +1,127 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!DOCTYPE html>
 <html>
 <head>
-    <link rel='icon' href='image/dog.png' type='image/x-icon'/ >
-    <title>Watermelon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="Document/CSS/navigate_bar.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Document/CSS/tabcontent.css">
+    <link rel="stylesheet" type="text/css" href="Document/CSS/card.css">
+    <link rel="stylesheet" type="text/css" href="Document/CSS/Slide_Image.css">
+    <link rel="stylesheet" type="text/css" href="Document/CSS/login.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="googlebot" content="noindex">
+    <meta name="author" content="Weixin Tang">
+    <meta name="description" content="Weixin create website for cse308 project!">
+    <link rel="icon" href="Document/Image/Watermelon.png">
+    <title>Green</title>
 
-    <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .topnav {
-      overflow: hidden;
-      background-color: #333;
-    }
-
-    .topnav a {
-      float: left;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-
-    .topnav a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-
-    .topnav a.active {
-      background-color: #4CAF50;
-      color: white;
-    }
-    </style>
 
 
 </head>
 
 
 <body>
-    <div class="topnav">
-      <a class="active" href="#home">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
+
+    <div class="topnav" id="myTopnav">
+        <a  id = "Home" ><i class="fa fa-fw fa-home"></i>Home</a>
+        <a  id = "Contact"><i class="glyphicon glyphicon-envelope"></i>&nbsp;Contact</a>
+        <a  id="About"><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;About</a>
+        <a  id="Login"><i class="glyphicon glyphicon-user"></i>&nbsp;login</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
-    
-  
+
+
+    <div id = "home_content" class = "tabcontent" >
+
+
+        <div class="w3-content w3-display-container"  style="width:100%;margin: 0px;min-width: 100%;max-width: 100%;">
+            <img class="mySlides"  src="Document/Image/Green_1.jpg" style="width:100%;">
+
+
+        </div>
+
+
+
+    </div>
+
+    <div id="contact_content"class = "tabcontent">
+
+        <img class="mySlides"  src="Document/Image/Green_2.jpg" style="width:100%">
+
+    </div>
+
+    <div id="about_content" class = "tabcontent">
+
+
+
+        <div class="columns">
+            <div class="card">
+                <img src="Document/Image/TangWeixin.jpg" alt="Avatar" style="width:100%;">
+                <div class="container">
+                    <h4><b>A</b></h4>
+                    <p>Architect & Engineer</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns">
+
+            <div class="card">
+                <img src="Document/Image/LiYingnan.jpg" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h4><b>B</b></h4>
+                    <p>Architect & Engineer</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="columns">
+            <div class="card">
+                <img src="Document/Image/JiangAnhui.jpg" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h4><b>C</b></h4>
+                    <p>Architect & Engineer</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="card">
+                <img src="Document/Image/ZhaoRay.jpg" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h4><b>D</b></h4>
+                    <p>Architect & Engineer</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="login_content" class = "tabcontent">
+
+        <img class="mySlides"  src="Document/Image/Green_3.png" style="width:100%">
+
+
+
+    </div>
+
+
+    <script type="text/javascript" src="Document/JS/navigate_bar.js"></script>
+
+
 </body>
 </html>
+
+
+
+
+
+
+
+
