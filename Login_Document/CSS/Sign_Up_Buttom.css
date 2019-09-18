@@ -23,8 +23,6 @@
 
 /*@media screen and (max-width: 1400px) {*/
 
-
-
 /*    .signup-form {*/
 
 /*        float: right;*/
@@ -56,6 +54,13 @@
 
 }
 
+#register-form {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 100%; /* Could be more or less, depending on screen size */
+}
+
 .col {
     display: table-cell;
     padding: 16px;
@@ -78,3 +83,4 @@
     background-color: #4CAF50;
     color: #fefefe;
 }
+/*___________________________________________*/
