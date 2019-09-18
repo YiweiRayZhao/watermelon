@@ -1,56 +1,20 @@
 .signup-content {
 @extend display-flex;
 }
-.signup-img , .signup-form {
+.signup-img  {
     width: 50%;
     float: left;
 }
-.signup-img {
-    margin-bottom: -7px;
 
-}
 .register-form {
-    padding: 50px 100px 50px 70px;
+    padding: 20px 20px 20px 20px;
 }
 
+@media screen and (max-width: 600px) {
 
-
-.signup-form{
-
-    /*background-color: forestgreen;*/
-    width: 50%;
-}
-
-/*@media screen and (max-width: 1400px) {*/
-
-/*    .signup-form {*/
-
-/*        float: right;*/
-/*        width: 50%;*/
-/*    }*/
-
-/*}*/
-
-@media screen and (max-width: 1000px) {
-
-
-
-     .signup-form {
-
-        float: right;
-        width: 70%;
+    .signup-img{
+        display: none;
     }
-
-}
-
-@media screen and (max-width: 700px) {
-
-    .signup-img , .signup-form {
-
-        float: none;
-        width: 100%;
-    }
-
 
 }
 
