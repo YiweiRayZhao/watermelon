@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <head>
+
+        <title>Stratego</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <meta name="googlebot" content="noindex">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link rel="icon" href="Login_Document/Image/stratego_icon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="Login_Document/CSS/Tool_Bar.css">
+        <!--        <link rel="stylesheet" type="text/css" href="Login_Document/CSS/Login_Button.css">-->
+        <!--        <script type="text/javascript" src="Login_Document/JS/Tool_Bar.js"></script>-->
+
+    </head>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+    <a  id = "Home" ><i class="fa fa-fw fa-home"></i>Home</a>
+    <a  id = "Contact"><i class="glyphicon glyphicon-envelope"></i>&nbsp;Contact</a>
+    <a  id="About"><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;About</a>
+    <a  id="Login"><i class="glyphicon glyphicon-user"></i>&nbsp;login</a>
+</div>
+
+<!--/*@thymesVar id="loginData" type="com.green.greenproject.login.LoginData"*/-->
+<h1 th:text="'id: ' + ${loginData.getUsername()}+ ${loginData.getPassword()}" ></h1>
+<!--    &lt;!&ndash;/*@thymesVar id="loginData" type="com.green.greenproject.login.LoginData"*/&ndash;&gt;-->
+<!--    <h1 th:text="'id: ' + ${loginData.getPassword()}" ></h1>-->
+
+</body>
+</html>
