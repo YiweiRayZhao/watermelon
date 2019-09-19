@@ -12,7 +12,7 @@
 .game_board{
 
 
-    width:70%;
+    /*width:80%;*/
     height: 100%;
     float: left;
     display: block;
@@ -21,13 +21,32 @@
 .game_button_list{
     position: absolute;
     right: 0;
-    width:30%;
+    width:200px;
     height: 100%;
     border: 3px solid mediumseagreen;
     float: left;
 }
 
+.vertical-menu {
+    width: 100%;
+}
 
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
 
 
 
