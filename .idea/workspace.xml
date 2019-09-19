@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a728459d-af9d-4c03-ab3a-2d7f253fa4f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Game_Document/CSS/sidenav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game_Document/JS/sidnav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login_Document/Image/AreyouOK.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login_Document/CSS/Login_Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/Login_Document/CSS/Login_Button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login_Document/CSS/Sign_Up_Buttom.css" beforeDir="false" afterPath="$PROJECT_DIR$/Login_Document/CSS/Sign_Up_Buttom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login_Document/CSS/Tool_Bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/Login_Document/CSS/Tool_Bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game_Document/CSS/game_button.css" beforeDir="false" afterPath="$PROJECT_DIR$/Game_Document/CSS/game_button.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/game.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +80,7 @@
       <workItem from="1568675203559" duration="6660000" />
       <workItem from="1568728676077" duration="2063000" />
       <workItem from="1568761889858" duration="6300000" />
-      <workItem from="1568780077827" duration="6255000" />
+      <workItem from="1568780077827" duration="7422000" />
     </task>
     <servers />
   </component>
