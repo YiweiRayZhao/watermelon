@@ -51,6 +51,13 @@ span.psw {
     padding-top: 16px;
 }
 
+img.avatar:hover{
+
+    transform: scale(1.5);
+
+
+}
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */

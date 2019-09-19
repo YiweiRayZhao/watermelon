@@ -18,6 +18,8 @@
 
 }
 
+
+
 #register-form {
     background-color: #fefefe;
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
@@ -47,4 +49,12 @@
     background-color: #4CAF50;
     color: #fefefe;
 }
+
+.submit:hover{
+
+    transform: scale(1.25);
+
+
+}
+
 /*___________________________________________*/
